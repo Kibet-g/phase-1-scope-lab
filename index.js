@@ -1,1 +1,22 @@
 // Write your solution in this file!
+//we have declared the customer name in the global scope
+var customerName = 'bob';
+
+function upperCaseCustomerName() {
+    customerName = customerName.toUpperCase();
+  }
+  
+  function setBestCustomer() {
+    bestCustomer = 'not bob'; 
+  }
+
+  function overwriteBestCustomer() {
+    bestCustomer = 'maybe bob';
+  }
+
+  const leastFavoriteCustomer = 'some customer'; 
+
+function changeLeastFavoriteCustomer() {
+  leastFavoriteCustomer = 'another customer'; 
+}
+
